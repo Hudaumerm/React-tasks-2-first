@@ -1,0 +1,17 @@
+
+body{
+    background-color: aquamarine;
+}
+h1{
+    color: blue;
+    text-align: center;
+    font-family: Arial;
+}
+p{
+    color: brown;
+    font-size: xx-large;
+}
+li{
+    color: blueviolet;
+    font-size: large;
+}

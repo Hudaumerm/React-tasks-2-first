@@ -1,0 +1,35 @@
+#button1{
+    color: #2874f0;
+    font-weight: 500;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    height: 32px;
+    padding: 6px 40px;
+    border: 1px solid #dbdbdb
+}
+.banar{
+    display: flex;
+    justify-content: space-between;
+}
+#sbi-image-1{
+    opacity: 100%;
+    text-align: center;
+    width: 1000px;
+    height: 120px;
+    margin-left: 15%;
+}
+#explore-plus-item{
+    font-size: 11px;
+    font-style: italic;
+    margin-top: -1px;
+    color: #fff;
+    
+} 
+figcaption{
+    text-align: center;
+}
+.cards-items{
+    display: flex;
+    justify-content: space-between;
+}

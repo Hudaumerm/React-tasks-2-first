@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student Registration Form</title>
+        <style>
+            body{
+                max-width: 500px;
+                margin: auto;
+                background-color: skyblue;
+            }
+            
+            h2{text-align: 100px;;
+               
+            }
+
+        
+        </style>
+    </head>
+    <body>
+        <h2 style="text-align: center;"><u>Registration Form</u></h2>
+    
+        <label style="display: inline-block;width: 100px;text-align: right;margin-right: 20px;" for="first">First Name</label>
+        <input id="first" type="text" maxlength="50">
+        <br><br>
+
+        <label style="display: inline-block;width: 100px;text-align: right;margin-right: 20px;"  for="last">Last Name</label>
+        <input id="last" type="text" maxlength="50">
+        <br><br>
+
+        <label style="display: inline-block;width: 100px;text-align: right;margin-right: 20px;" for="mail">Email ID</label>
+        <input id="mail" type="email" placeholder="abc123@gmail.com">
+        <br><br>
+
+        <label style="display: inline-block;width: 100px;text-align: right;margin-right: 20px;" for="pass">Password</label>
+        <input id="pass" type="password">
+        <br><br>
+
+        <label style="display: inline-block;width: 100px;text-align: right;margin-right: 20px;" for="phone">Mobile No</label>
+        <input id="phone" type="number" >
+        <br><br>
+
+        <label style="display: inline-block;width: 100px;text-align: right;margin-right: 20px;">Gender</label>
+ 
+        <label for="male">Male</label>
+        <input id="male" type="radio" name="gender" >
+
+        <label for="female">Female</label>
+        <input id="female" type="radio" name="gender">
+
+        <label for="others">Others</label>
+        <input id="others" type="radio" name="gender">
+        <br><br>
+
+        <label style="display: inline-block;width: 100px;text-align: right;margin-right: 20px;" for="dob">Date Of Birth(DOB)</label>
+        <input id="dob" type="date">
+        <br><br>
+
+        <label style="display: inline-block;width: 100px;text-align: right;margin-right: 20px;" for="adrs">Address</label>
+        <textarea id="adrs" cols="40" rows="10"></textarea>
+        <br><br>
+
+        <label style="display: inline-block;width: 100px;text-align: right;margin-right: 20px;" for="city">City</label>
+        <input id="city" type="text" maxlength="50">
+        <br><br>
+
+        <label style="display: inline-block;width: 100px;text-align: right;margin-right: 20px;" for="pin">Pincode</label>
+        <input id="pin" type="number" maxlength="6">
+        <br><br>
+
+        <label style="display: inline-block;width: 100px;text-align: right;margin-right: 20px;" for="state">State</label>
+        <input id="state" type="text" maxlength="50">
+        <br><br>
+
+        <label style="display: inline-block;width: 100px;text-align: right;margin-right: 20px;" for="country">Country</label>
+        <input id="country" type="text">
+        <br><br>
+
+        <label style="display: inline-block;width: 100px;text-align: right;margin-right: 20px;" for="hob">Hobbies</label>
+        <select id="hob">
+            <option>Select</option>
+            <option>Drawing</option>
+            <option>Singing</option>
+            <option>Dancing</option>
+            <option>Sketching</option>
+            <option>Others</option>
+
+        </select>
+        <br><br>
+
+        <label style="display: inline-block;width: 100px;text-align: right;margin-right: 20px;" for="quali">Qualification</label>
+
+        <div style="margin-left: 118px;">
+        <input id="quali1" type="checkbox">
+        <label for="quali1">High School(10th)</label>
+        <br>
+
+        <input id="quali1" type="checkbox">
+        <label for="quali1">Higher School</label>
+        <br>
+
+        <input id="quali1" type="checkbox">
+        <label for="quali1">Graduation(Bachelors)</label>
+        <br>
+
+        <input id="quali1" type="checkbox">
+        <label for="quali1">Post Graduation(Masters)</label>
+        <br>
+
+        <input id="quali1" type="checkbox">
+        <label for="quali1">Phd</label>
+        </div>
+        <br><br>
+
+        <div style="text-align: center;">
+        <input type="submit">
+        <input style="margin-left: 20px;" type="reset">
+        </div>
+
+
+
+
+
+
+    </body>
+</html>
